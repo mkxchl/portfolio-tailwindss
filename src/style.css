@@ -7,3 +7,14 @@
 html {
   font-family: "Rajdhani", sans-serif;
 }
+html::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+html::-webkit-scrollbar-track {
+  background: white;
+}
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #4ab1ff, #2d5cfe);
+  border-radius: 25px;
+}
