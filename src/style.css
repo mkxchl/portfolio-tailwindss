@@ -6,6 +6,7 @@
 
 html {
   font-family: "Rajdhani", sans-serif;
+  scroll-behavior: smooth;
 }
 html::-webkit-scrollbar {
   width: 10px;
